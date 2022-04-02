@@ -1,0 +1,105 @@
+
+.sectionOneWrapper{
+  .middleTextStyle{
+    color: grey;
+    font-size: 13px;
+  }
+  padding: 7% 10%;
+  width: 100%;
+  .boxOne{
+    width: 450px;
+    .textStyleOne{
+      color: white;
+      font-size: 40px;
+    }
+    .miniBoxOne{
+    background-color: #DA4533;
+      border-radius: 50%;
+      width: 170px;
+      color: white;
+      font-size: 10px;
+      padding: 6px 10px;
+      text-align: center;
+    }
+    .miniBoxTwo{
+      width: 100px;
+      border: rgba(218, 69, 51, 1) 1px solid;
+      border-radius: 50%;
+      padding: 8px;
+      color: rgba(218, 69, 51, 1);
+      margin: 0 20px;
+      .arrowStyle{
+        margin: 0 -20px 0 5px;
+      }
+      &:hover{
+        background-color: rgba(218, 69, 51, 1);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .boxTwo{
+    width: 300px;
+    height:200px;
+    position: relative;
+    .back{
+      width: 300px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .logoOneStyle{
+      position: absolute;
+      width: 320px;
+      right: 0;
+      top: -60px;
+      right: 0;
+    }
+  }
+  .backLogoStyle{
+  position: absolute;
+    width: 70%;
+    top: 80px;
+    left: 100px;
+  }
+  .logoTwoStyle{
+    width: 110%;
+  }
+  .infoItemBox{
+  background: linear-gradient(135deg, rgba(218, 69, 51, 1), #2a2a2a, #2a2a2a);
+    border-radius: 5px;
+    padding: 1px;
+    margin: 5px;
+    cursor: pointer;
+    .childBoxItem{
+      background-color: #2a2a2a;
+      border-radius: 5px;
+      height: 100%;
+      width: 100%;
+      padding: 1%;
+      transition: 0.5s all linear;
+      &:hover{
+        background: none;
+        box-shadow: #bb908b 0 0 0 1px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+  }
+  .imageBox{
+    height: 80px;
+    background-color: #2a2a2a;
+    text-align: center;
+    margin: 7px 7px;
+    border-radius: 5px;
+    transition: 0.5s all linear;
+    img{
+      width: 50%;
+      height: 50%;
+      margin: 20px 0;
+    }
+    &:hover{
+      background: #DA4533;
+    }
+  }
+}

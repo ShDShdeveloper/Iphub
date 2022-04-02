@@ -1,0 +1,59 @@
+$url: "../../../../Images/backgroud_grey.svg";
+
+.SectionTwoWrapper{
+  background-image: url($url);
+  width: 100%;
+  background-size: 100%;
+  padding: 5% 0 4% 12%;
+  .middleSize{
+    font-size: 12px;
+    color: #949393;
+  }
+  .miniBoxTwo{
+    border: rgba(218, 69, 51, 1) 2px solid;
+    border-radius: 50%;
+    padding: 5px 10px;
+    width: 130px;
+    color: rgba(218, 69, 51, 1);
+    margin: 0 20px;
+    .arrowStyle{
+    margin: 0 -30px 0 10px;
+    }
+    &:hover{
+      background-color: rgba(218, 69, 51, 1);
+      color: white;
+      cursor: pointer;
+    }
+  }
+  .carouselItem{
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    height: 250px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    padding: 20px 15px 10px 15px;
+    margin: 1%;
+    transition: 0.5s all linear;
+    box-sizing: border-box;
+    .carouselImage{
+      width: 60%;
+      transition: 1s all linear;
+    }
+    .icon{
+      position: absolute;
+      width: 10%;
+      top: 5px;
+      right: 5px;
+    }
+    &:hover{
+      transform: scale(1.1);
+      img{
+        transform: rotate(360deg);
+      }
+      p{
+        color: #f3d4ff;
+      }
+    }
+  }
+}
